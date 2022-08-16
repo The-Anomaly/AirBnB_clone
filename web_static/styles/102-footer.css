@@ -1,0 +1,18 @@
+.footer {
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-top: 1px solid #cccccc;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    height: 40px;
+    font-size: 12px;
+  }
+}
