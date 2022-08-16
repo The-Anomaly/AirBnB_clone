@@ -1,0 +1,54 @@
+.filters {
+  background-color: #ffffff;
+  height: 70px;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.search {
+  font-size: 18px;
+  background-color: #ff5a5f;
+  color: #ffffff;
+  height: 48px;
+  width: 20%;
+  border: none;
+  border-radius: 4px;
+  margin-right: 30px;
+  margin-left: auto;
+}
+.search:hover {
+  opacity: 0.9;
+}
+.locations {
+  height: 100%;
+  width: 25%;
+  border-right: 1px solid #dddddd;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.amenities {
+  height: 100%;
+  width: 25%;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.locations h3, .amenities h3 {
+  font-weight: 600;
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+.locations h4, .amenities h4 {
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 50%;
+  margin: 0;
+}
